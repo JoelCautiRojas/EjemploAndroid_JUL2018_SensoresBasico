@@ -5,11 +5,14 @@
 
     <item
         android:id="@+id/opcion1"
-        android:title="Indice" />
+        android:title="@string/opcion1_menu1" />
     <item
         android:id="@+id/opcion2"
-        android:title="Sensores" />
+        android:title="@string/opcion2_menu1" />
     <item
         android:id="@+id/opcion3"
-        android:title="Acerca de Nosotros" />
+        android:title="@string/opcion3_menu1" />
+    <item
+        android:id="@+id/opcion4"
+        android:title="@string/opcion4_menu1" />
 </menu>

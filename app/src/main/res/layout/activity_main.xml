@@ -76,22 +76,6 @@
                         android:layout_height="wrap_content"
                         android:text="@string/indice_parrafo4" />
 
-                    <TextView
-                        android:id="@+id/textView10"
-                        android:textSize="13sp"
-                        android:layout_marginBottom="10dp"
-                        android:textColor="#5c5c5c"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/indice_parrafo5" />
-
-                    <TextView
-                        android:textSize="13sp"
-                        android:textColor="#5c5c5c"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/indice_parrafo6" />
-
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>

@@ -10,6 +10,11 @@
     <color name="colorProgramadoresPeruanosAccent">#433d3d</color>
     <color name="colorEnlacesURL">#3c8fe9</color>
 
+    <!-- Card View -->
+    <color name="card1">#f2ffd5</color>
+    <color name="card2">#d7ffef</color>
+    <color name="card3">#dbeeff</color>
+
     <!-- Colores Seleccionados -->
     <color name="colorverdesoft">#b8e8c7</color>
     <color name="colorverdehighlight">#14ba87</color>

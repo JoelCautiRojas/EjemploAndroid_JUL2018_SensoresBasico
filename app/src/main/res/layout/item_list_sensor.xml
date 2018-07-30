@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="1dp"
+        app:cardBackgroundColor="#ffffff"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/constante"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorProgramadoresPeruanosPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:id="@+id/nombre"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorProgramadoresPeruanosPrimary"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#131313"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/item_list_sensor_text6"
+                    android:layout_marginEnd="5dp" />
+
+                <TextView
+                    android:id="@+id/grupo"
+                    android:textColor="#131313"
+                    android:textSize="13sp"
+                    android:textStyle="bold|italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+            <TextView
+                android:textColor="#4d4d4d"
+                android:textSize="12sp"
+                android:id="@+id/descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:textColor="#4d4d4d"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_sensor_text8"/>
+
+            <TextView
+                android:textColor="#4d4d4d"
+                android:textSize="12sp"
+                android:id="@+id/usos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"/>
+
+            <TableLayout
+                android:padding="8dp"
+                android:background="#303030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginRight="8dp"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item_list_sensor_text7"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:textColor="@color/colorProgramadoresPeruanosPrimary"
+                        android:id="@+id/tipo"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginRight="8dp"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item_list_sensor_text1"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:textColor="@color/colorProgramadoresPeruanosPrimary"
+                        android:id="@+id/api"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginRight="8dp"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item_list_sensor_text2"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:textColor="@color/colorProgramadoresPeruanosPrimary"
+                        android:id="@+id/dimensiones"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginRight="8dp"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item_list_sensor_text3"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:textColor="@color/colorProgramadoresPeruanosPrimary"
+                        android:id="@+id/unidadMedida"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginRight="8dp"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item_list_sensor_text4"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:textColor="@color/colorProgramadoresPeruanosPrimary"
+                        android:id="@+id/obsoleto"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginRight="8dp"
+                        android:textColor="#ffffff"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item_list_sensor_text5"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:textColor="@color/colorProgramadoresPeruanosPrimary"
+                        android:id="@+id/apiObsoleto"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

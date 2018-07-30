@@ -1,17 +1,21 @@
 <resources>
     <string name="app_name">Ejemplo Sensores Básico</string>
 
+    <!-- Menu -->
+    <string name="opcion1_menu1">Indice</string>
+    <string name="opcion2_menu1">Sensores en Android</string>
+    <string name="opcion3_menu1">Mis Sensores</string>
+    <string name="opcion4_menu1">Acerca de Nosotros</string>
+
     <!-- Imagenes -->
     <string name="icono1">Icono de Android</string>
 
     <!-- Antivity Indice -->
     <string name="indice_titulo">Indicaciones:</string>
-    <string name="indice_parrafo1">La aplicacion presenta la creacion de un tablero en JAVA, para un pequeño juego, por cada celda habra una trama diferente, generada de maneara aleatoria.</string>
-    <string name="indice_parrafo2">Primero se debe configurar la cantidad de columnas y filas que tendra el tablero, asi como el numero de tramas.</string>
-    <string name="indice_parrafo3">Cuando se de click en una celda, las celdas a su alrededor tambien cambiaran.</string>
-    <string name="indice_parrafo4">Cada trama cambia a la siguiente, siguiendo una secuencia, que se repetira indefinidamente.</string>
-    <string name="indice_parrafo5">Asi como cada celda tiene un patron diferente de cambio, las esquinas cambian a las tres celdas mas cercanas y los lados y el medio cambian las celdas en cruz.</string>
-    <string name="indice_parrafo6">El objetivo del juego es hacer que todas las celdas tengan la misma trama.</string>
+    <string name="indice_parrafo1">La aplicacion presenta todos los diferentes sensores que pueden tener los diferentes dispositivos con sistema operativo Android.</string>
+    <string name="indice_parrafo2">No todos los dispositivos disponen de todos los sensores y no todos los sensores estan disponibles en todas las versiones de Android.</string>
+    <string name="indice_parrafo3">Cada sensor puede devolver uno o varios datos de informacion en intervalos de tiempo variados.</string>
+    <string name="indice_parrafo4">En la opcions MIS SENSORES se muestra una lista de los sensores de los que dispone nuestro equipo ademas de la informacion obtenida de estos.</string>
 
     <!-- Activity Firma -->
     <string name="firma_repositorio">https://github.com/JoelCautiRojas/EjemploAndroid_JUN2018_FlipGame.git</string>
@@ -25,8 +29,64 @@
     <string name="firma_autorEnlace">https://www.facebook.com/joelcauti</string>
     <string name="firma_parrafo1">El repositorio de este ejercicio lo puedes encontrar en:</string>
     <string name="firma_parrafo2">Ejercicio desarrollado por:</string>
-    <string name="boton_jugar">Jugar</string>
-    <string name="configuracion">Configuracion del Juego</string>
-    <string name="seleccion1">Selecciona una imagen para mostrar en el tablero</string>
-    <string name="seleccion2">Selecciona opciones adicionales</string>
+
+    <!-- Descripcion de Sensores -->
+    <string name="s1">Mide la fuerza de aceleracion en m/s2 a la que se somete el dispositivo en los 3 ejes fisicos (x,y,z) incluyendo la fuerza de gravedad. Permite medir cambios de movimientos y de orientacion.</string>
+    <string name="s2">Mide la temperatura ambiente en grados Celsius (°C).</string>
+    <string name="s3">Mide la fuerza de la gravedad en m/s2 que se aplica a un dispositivo en los tres ejes físicos (x,y,z).</string>
+    <string name="s4">Mide la tasa de rotación de un dispositivo en rad/s alrededor de cada uno de los tres ejes físicos (x,y,z).</string>
+    <string name="s5">Mide el nivel de luz ambiental (iluminación) en lx.</string>
+    <string name="s6">Mide la fuerza de aceleración en m/s2 que se aplica a un dispositivo en los tres ejes físicos (x,y,z), excluyendo la fuerza de la gravedad.</string>
+    <string name="s7">Mide el campo geomagnético ambiental para los tres ejes físicos (x, y, z) en μT.</string>
+    <string name="s8">Mide los grados de rotación que hace un dispositivo alrededor de los tres ejes físicos (x,y,z). Puede obtener la matriz de inclinación y la matriz de rotación para un dispositivo utilizando el sensor de gravedad y el sensor de campo geomagnético.</string>
+    <string name="s9">Mide la presión del aire ambiente en hPa o mbar.</string>
+    <string name="s10">Mide la proximidad de un objeto en cm en relación con la pantalla de visualización de un dispositivo. Este sensor generalmente se utiliza para determinar si un teléfono está siendo llevado hasta el oído de una persona.</string>
+    <string name="s11">Mide la humedad ambiental relativa en porcentaje (%).</string>
+    <string name="s12">Mide la orientación de un dispositivo al proporcionar los tres elementos del vector de rotación del dispositivo.</string>
+    <string name="s13">Mide la temperatura del dispositivo en grados Celsius (°C). La implementación de este sensor varía según los dispositivos y este sensor fue reemplazado por el TYPE_AMBIENT_TEMPERATURE.</string>
+    <string name="s14">Mide la fuerza de aceleracion en m/s2 a la que se somete el dispositivo en los 3 ejes fisicos (x,y,z), sin compensacion de polarizacion y con compenzacion de polarizacion estimada.</string>
+    <string name="s15">Mide la tasa de rotación de un dispositivo en rad/s alrededor de cada uno de los tres ejes físicos (x,y,z), sin compensacion de deriva y con compensacion de deriva estimada.</string>
+    <string name="s16">Se dispara cuando ocurre un evento y luego se desactiva automáticamente. El sensor continúa funcionando mientras el dispositivo está dormido y lo activará automáticamente para notificar cuando se detecte un movimiento significativo. La aplicación no necesita mantener ningún bloqueo de activación para que se active este sensor. Este es un sensor de despertador.</string>
+    <string name="s17">Un sensor de este tipo devuelve el número de pasos realizados por el usuario desde el último reinicio mientras está activado. El valor se devuelve como un flotante (con la parte fraccionaria configurada en cero) y se restablece a cero solo en un reinicio del sistema. La marca de tiempo del evento se establece en el momento en que se tomó el último paso para ese evento.</string>
+    <string name="s18">Un sensor de este tipo activa un evento cada vez que el usuario toma un paso. El único valor permitido para devolver es 1.0 y se genera un evento para cada paso. Al igual que con cualquier otro evento, la marca de tiempo indica cuándo ocurrió el evento (aquí el paso), esto corresponde a cuando el pie golpeó el suelo, generando una gran variación en la aceleración.</string>
+    <string name="s19">Idéntico a TYPE_ROTATION_VECTORexcepto que no usa el campo geomagnético. Por lo tanto, el eje Y no apunta al norte, sino que a otra referencia, se permite que la referencia descienda en el mismo orden de magnitud que el giroscopio a la deriva alrededor del eje Z.</string>
+    <string name="s20">Similar a TYPE_ROTATION_VECTOR, pero usando un magnetómetro en lugar de usar un giroscopio. Este sensor utiliza una potencia menor que los otros vectores de rotación, ya que no utiliza el giroscopio. Sin embargo, es más ruidoso y funcionará mejor al aire libre.</string>
+    <string name="s21">Similar a, TYPE_MAGNETIC_FIELD, pero la calibración de hierro duro (calibración del dispositivo debido a distorsiones que surgen de hierro magnetizado, acero o imanes permanentes en el dispositivo) no se considera en los valores de sensor dados. Sin embargo, estos valores duros de polarización de hierro se devuelven por separado en el resultado.</string>}
+    <string name="s22">Monitor cardiaco de pulsos por minuto, la precisión informada representa el estado del monitor durante la lectura.</string>
+
+    <string name="u1">Detección de movimiento (sacudida, inclinación, etc.).</string>
+    <string name="u2">Monitoreo de la temperatura del aire.</string>
+    <string name="u3">Detección de movimiento (sacudida, inclinación, etc.).</string>
+    <string name="u4">Detección de rotación (giro, giro, etc.).</string>
+    <string name="u5">Controlando el brillo de la pantalla.</string>
+    <string name="u6">Monitoreando la aceleración a lo largo de un solo eje.</string>
+    <string name="u7">Creando una brújula</string>
+    <string name="u8">Determinando la posición del dispositivo.</string>
+    <string name="u9">Monitoreo de cambios de presión de aire.</string>
+    <string name="u10">Posición del teléfono durante una llamada.</string>
+    <string name="u11">Monitoreo de punto de rocío, absoluto y humedad relativa.</string>
+    <string name="u12">Detección de movimiento y detección de rotación.</string>
+    <string name="u13">Monitoreo de temperaturas.</string>
+    <string name="u14">Detección de movimiento.</string>
+    <string name="u15">Detección de rotación.</string>
+    <string name="u16">Detección de movimiento.</string>
+    <string name="u17">Este sensor es ideal para aplicaciones de seguimiento de fitness.</string>
+    <string name="u18">Este sensor solo sirve para detectar cada paso individual tan pronto como se realiza.</string>
+    <string name="u19">En el caso ideal, un teléfono girado y que vuelve a la misma orientación en el mundo real debe informar el mismo vector de rotación del juego (sin utilizar el campo geomagnético de la Tierra). Sin embargo, la orientación puede variar un poco con el tiempo.</string>
+    <string name="u20">Describe un vector de rotación geo-magnético.</string>
+    <string name="u21">Puede usarlos para calibraciones personalizadas.</string>
+    <string name="u22">El valor informado es la frecuencia cardíaca.</string>
+
+    <!-- Activity Sensores Android -->
+    <string name="titulo1">Listado de sensores en Android</string>
+
+    <!-- Items List Textos -->
+    <string name="item_list_sensor_text1">Implementado desde:</string>
+    <string name="item_list_sensor_text2">Dimensiones:</string>
+    <string name="item_list_sensor_text3">Unid. de Medida:</string>
+    <string name="item_list_sensor_text4">Estado Actual:</string>
+    <string name="item_list_sensor_text5">Implementado hasta:</string>
+    <string name="item_list_sensor_text6">Categoria:</string>
+    <string name="item_list_sensor_text7">Tipo de Sensor:</string>
+    <string name="item_list_sensor_text8">Usos comunes:</string>
 </resources>

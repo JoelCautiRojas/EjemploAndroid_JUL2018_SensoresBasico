@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.opcion3:
                 startActivity(new Intent(getApplicationContext(),Main3Activity.class));
                 return true;
+            case R.id.opcion4:
+                startActivity(new Intent(getApplicationContext(),Main4Activity.class));
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
